@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* HEADER */
+.hero-img {
+  background: url("./hero.png") no-repeat;
+  width: 100%;
+  height: 100px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(155, 135, 241);
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+}
+
+.list-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 19rem;
+}
+.list-item {
+  padding: 0 2rem;
+}
+.list-item a {
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5rem;
+}
+.list-item:hover a {
+  color: #fff;
+}
+
+/* FOOTER */
+
+footer .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background: rgb(155, 135, 241);
+  border-radius: 1rem;
+}
+
+/* HOME Page */
+#home .img {
+  background: url("bg.jpg");
+  height: 100vh;
+}
+
+#home p {
+  font-size: 1.1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem;
+}
+
+/* ABOUT page */
+#about-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+#about-wrapper .profile {
+  background: url("profile.png");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+}
+#about-wrapper p {
+  width: 250%;
+}
+#about p {
+  padding: 1rem;
+}
+
+#about ul li {
+  padding: 1rem;
+  list-style-type: circle !important;
+}
+
+/* PORTFOLIO page */
+#portfolio #item {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#portfolio #item .img-left {
+  background: url("img1.jpg") no-repeat center center/cover;
+  filter: grayscale(0.8);
+
+  width: 1000px;
+  height: 200px;
+}
+#portfolio #item .content-right {
+  font-size: 1.1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+
+  padding: 1rem;
+}
+
+/* Contact Page */
+#contact #details,
+#contact #review,
+#contact #map {
+  padding: 1rem 3rem;
+}
+#container {
+  margin: 1rem 2rem;
+}
+#contact #details input {
+  display: block;
+}
